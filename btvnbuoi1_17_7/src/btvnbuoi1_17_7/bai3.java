@@ -13,7 +13,7 @@ public class bai3 {
         int n,result = 0 ;
         System.out.print("Nhap n = ");
         n = scanner.nextInt();
-        int length = (int) Math.sqrt(n);
+        int length = n/2;
         for(int i = 1 ; i<length ; i++){
             if(n%i == 0){
                 result +=i;
@@ -21,4 +21,5 @@ public class bai3 {
         }
         System.out.println("Tong cac uoc cua n = " + (result + n));
     }
+//    hhe
 }
