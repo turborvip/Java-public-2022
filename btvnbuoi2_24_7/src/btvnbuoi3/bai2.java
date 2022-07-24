@@ -1,5 +1,4 @@
-
-package btvnbuoi3.pkg24.pkg7;
+package btvnbuoi3;
 
 import java.util.Scanner;
 
